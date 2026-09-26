@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhiệm vụ 3.1: Infographic và Video</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; background-color: #f9f9f9; }
+        h1 { color: #333; text-align: center; }
+        .description { color: #666; font-size: 1.1rem; margin-bottom: 30px; text-align: center; }
+        .content-box { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 25px; text-align: center; }
+        img { max-width: 100%; height: auto; border-radius: 4px; }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 4px; }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+        footer { text-align: center; margin-top: 40px; font-size: 0.9rem; color: #888; border-top: 1px solid #ddd; padding-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Nhiệm vụ 2.2: Khám phá qua hình ảnh và video</h1>
+    <p class="description">Trang web hiển thị tóm tắt nội dung trực quan thông qua Infographic bài tập và video thuyết minh trên YouTube.</p>
+
+    <!-- Khối hiển thị Infographic -->
+    <div class="content-box">
+      <h2 id="infographic-title">1. Infographic</h2>
+      <img class="infographic" src="Lab05_Ex2.1.png" alt="Infographic bài tập Lab05">
+    </div>
+
+    <!-- Khối nhúng Video YouTube -->
+    <div class="content-box">
+      <h2 id="video-title">2. Video</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/5zBqEFgVeMI"
+          title="Video YouTube về Nhiệm vụ 2.2"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Bản quyền thuộc về sinh viên thực hiện bài tập Lab05.</p>
+    </footer>
+
+</body>
+</html>
